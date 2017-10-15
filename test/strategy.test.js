@@ -7,7 +7,7 @@ describe('Strategy', function () {
   describe('constructed', function () {
     var strategy = new POP3Strategy({
       host: 'localhost',
-      port: 110
+      port: 995
     }, function () { })
 
     it('should be named pop3', function () {
@@ -43,8 +43,8 @@ describe('Strategy', function () {
 
   describe('handling a request without a body, but no username and password, with message option to authenticate', function () {
     var strategy = new POP3Strategy({
-      host: 'pop.gmail.com',
-      port: 110
+      host: 'localhost',
+      port: 995
     }, function () { })
 
     var info, status
