@@ -15,7 +15,7 @@ unobtrusively integrated into any application or framework that supports
 ## Install
 
 ```
-$ npm install passport-pop3
+$ npm install --save passport-pop3
 ```
 
 ## Usage
